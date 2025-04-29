@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - MediConnect</title>
+    <link rel="stylesheet" href="css/formStyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+
+    <nav class="navbar">
+        <a href="./index.html">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="MediConnect Logo">
+            </div>
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="signup.html" class="active">Sign-up</a></li>
+            <li><a href="signin.html">Sign-in</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+
+    <div class="scrolling-text">
+        <marquee>Create your MediConnect account and connect with expert doctors today!</marquee>
+    </div>
+
+
+    <section class="form-section">
+        <h1>Create an Account</h1>
+        <form action="#" method="POST" class="form-container">
+            <input type="text" name="fullname" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <input type="password" name="password" placeholder="Password" required minlength="6">
+            <input type="password" name="confirm-password" placeholder="Confirm Password" required minlength="6">
+            <button type="submit" class="btn">Sign Up</button>
+            <p>Already have an account? <a href="signin.html">Sign In</a></p>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>Contact us: info@mediconnect.com | Follow us on 
+            <a href="#">Twitter</a>, <a href="#">Reddit</a>
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
