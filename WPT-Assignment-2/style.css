@@ -1,0 +1,76 @@
+#textButton{
+    align-self: center;
+    background-color:blanchedalmond;
+    margin-top: 20px;
+}
+
+#textButton:hover {
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#para-div {
+    max-width: 1500px ;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.new-para-style {
+    color: rgb(116, 116, 189);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20;
+} 
+
+
+#q2-div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+#input-div{
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+input {
+    margin: 10px;
+}
+
+#output {
+    padding: 10px;
+    max-height: 205px;
+    overflow-y: scroll;
+}
+
+#dropdown{
+    width: 135px ;
+    text-align: center;
+}
+
+
+/* Question 4 */
+.bold-text {
+    font-weight: 600;
+}
+#link-text {
+    font-style: italic;
+    color: rgb(101, 136, 212);
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+}
+
+
