@@ -1,14 +1,16 @@
-body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
+
+  #main-div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin-top: 100px;
   }
   
-
   .form-container {
+    width: 50vw;
+    min-width: 300px;
     max-width: 600px;
-    margin: 50px auto;
     background: white;
     padding: 30px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -50,16 +52,5 @@ body {
   #responseMessage {
     margin-top: 15px;
     color: green;
-  }
-  
-  footer {
-    background: #0077cc;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
   }
   
